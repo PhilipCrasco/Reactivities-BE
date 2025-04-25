@@ -67,7 +67,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseDefaultFiles(); // look for wwwroot
-app.UseStaticFiles(); // look to look wwwroot
+app.UseStaticFiles(); // look to look wwwroo
 
 app.MapControllers();
 app.MapGroup("api").MapIdentityApi<User>(); // api/login
